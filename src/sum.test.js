@@ -10,3 +10,6 @@ test('adds 5 + 5 to equal 10', () => {
 test('adds 30 + 5 to equal 35', () => {
   expect(sum(30, 5)).toBe(35);
 });
+test('adds more than two products', () => {
+  expect(sum(30, 5, 10)).toBe(45);
+});
